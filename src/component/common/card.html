@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div {
+        font-size: 6pt;
+        color: white;
+    }
+    .card-container {
+        border: 1px solid black;
+        border-radius: 10px;
+
+        width:160px;
+        height:110px;
+    }
+    .card-feature {
+        padding-left:80%;
+    }
+
+    .card-about {
+        margin-top:50px;
+    }
+
+    .card-about p{
+
+        margin-left:40%;
+    }
+
+
+</style>
+<body>
+<div class="card-container"  v-bind:style="{ background-image: url( bgurl ) }">
+    <div class="card-feature"><img >w</div>
+    <div class="card-about">
+        <p>{{card.title}}</p>
+        <p>{{card.author}}</p>
+    </div>
+</div>
+</body>
+</html>
